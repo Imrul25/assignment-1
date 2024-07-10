@@ -89,3 +89,45 @@ main{
  .JavaScript{
     background-color: rgba(255, 223, 0, 0.09)
  }
+ /* footer styles */
+ footer{
+    margin: 150px 0px;
+ }
+.footer-content1{
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+ }
+ 
+ .footer-content-text{
+    color: #FFFFFF;
+ }
+ .btn-3{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+ 
+ }
+ footer input[type=text]{
+ height: 50px;
+ width: 500px;
+ font-size: 15px;
+ font-weight: bold;
+ border-radius: 10px;
+ text-align: center;
+ }
+ .footer-content2{
+    margin-top: 500px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+ }
